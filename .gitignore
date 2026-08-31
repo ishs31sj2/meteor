@@ -1,36 +1,34 @@
 ```
-# Compressed files
-*.zip
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-.venv/
-venv/
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.DS_Store
+Thumbs.db
 
 # Build artifacts
 build/
 dist/
 *.egg-info/
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS
-.DS_Store
-Thumbs.db
+# Virtual environments
+venv/
+.env
+.env.local
+.env.*
 ```
