@@ -1,7 +1,40 @@
 ```
-# Compressed files
-*.zip
+# Build artifacts and distributions
+build/
+dist/
+*.spec
 
-# Distribution folder
-MyeonhakCalendar_Dist/
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
 ```
